@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Inter-Bold";
+    src: url(./assets/fonts/static/Inter-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Inter-regular";
+    src: url(./assets/fonts/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Inter-semibold";
+    src: url(./assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: "Inter-variable";
+    src: url(./assets/fonts/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+}
+
+
+.container-main {
+    width: 300px;
+    height: 500px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.circle {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    position: relative;
+}                         
+      
+.circle img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-family: "Inter-semibold";
+    color: hsl(0, 0%, 100%);
+}
+
+h3 {
+    font-family: "Inter-variable";
+    margin-top: -10px;
+    font-size: 14px;
+    color: hsl(75, 94%, 57%);
+}
+
+p.paragraf {
+    font-family: "Inter-regular";
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: "Inter-bold";
+}
+
+.primeiro {
+    width: 250px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+
+.outro {
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+}
+
+
+
+
+
